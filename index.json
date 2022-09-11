@@ -1,0 +1,121 @@
+{
+    "shipments": [{
+        "id": "9483041875",
+        "service": "express",
+        "origin": {
+            "address": {
+                "addressLocality": "ISTANBUL - TURKEY"
+            },
+            "servicePoint": {
+                "url": "http://www.dhl.com.tr/en/country_profile.html",
+                "label": "Origin Service Area"
+            }
+        },
+        "destination": {
+            "address": {
+                "addressLocality": "LEIPZIG - GERMANY"
+            },
+            "servicePoint": {
+                "url": "http://www.dhl.com/en/de/country_profile.html",
+                "label": "Destination Service Area"
+            }
+        },
+        "status": {
+            "timestamp": "2022-09-10T06:23:00",
+            "location": {
+                "address": {
+                    "addressLocality": "LEIPZIG - GERMANY"
+                }
+            },
+            "statusCode": "transit",
+            "status": "transit",
+            "description": "Arrived at DHL Delivery Facility LEIPZIG - GERMANY"
+        },
+        "estimatedTimeOfDelivery": "2022-09-13",
+        "estimatedTimeOfDeliveryRemark": "By End of Day",
+        "details": {
+            "proofOfDelivery": {
+                "signatureUrl": "https://proview.dhl.com/proview/adhocnotify?id=KrccpplXTIl1Ezgcsr%2FEXBj7miVf7XvNijm60OaJOiI%3D&appuid=LqOimloGAI0SZoFvu1kS6g%3D%3D&locale=en_G0&token=gbWW9xTAOqS8oWa3ApUASrA0V4qA124LF2O22zX5298%3D",
+                "documentUrl": "https://proview.dhl.com/proview/adhocnotify?id=KrccpplXTIl1Ezgcsr%2FEXBj7miVf7XvNijm60OaJOiI%3D&appuid=LqOimloGAI0SZoFvu1kS6g%3D%3D&locale=en_G0&token=gbWW9xTAOqS8oWa3ApUASrA0V4qA124LF2O22zX5298%3D"
+            },
+            "proofOfDeliverySignedAvailable": false,
+            "totalNumberOfPieces": 1,
+            "pieceIds": ["JD014600010231346487"]
+        },
+        "events": [
+            {
+            "timestamp": "2022-09-10T06:23:00",
+            "location": {
+                "address": {
+                    "addressLocality": "LEIPZIG - GERMANY"
+                }
+            },
+            "description": "Arrived at DHL Delivery Facility LEIPZIG - GERMANY",
+            "pieceIds": ["JD014600010231346487"]
+        }, {
+            "timestamp": "2022-09-10T05:02:00",
+            "location": {
+                "address": {
+                    "addressLocality": "LEIPZIG - GERMANY"
+                }
+            },
+            "description": "Shipment has departed from a DHL facility LEIPZIG - GERMANY",
+            "pieceIds": ["JD014600010231346487"]
+        }, {
+            "timestamp": "2022-09-10T03:23:00",
+            "location": {
+                "address": {
+                    "addressLocality": "LEIPZIG - GERMANY"
+                }
+            },
+            "description": "Processed at LEIPZIG - GERMANY",
+            "pieceIds": ["JD014600010231346487"]
+        }, {
+            "timestamp": "2022-09-10T02:07:00",
+            "location": {
+                "address": {
+                    "addressLocality": "LEIPZIG - GERMANY"
+                }
+            },
+            "description": "Arrived at DHL Sort Facility LEIPZIG - GERMANY",
+            "pieceIds": ["JD014600010231346487"]
+        }, {
+            "timestamp": "2022-09-09T22:46:00",
+            "location": {
+                "address": {
+                    "addressLocality": "ISTANBUL - TURKEY"
+                }
+            },
+            "description": "Shipment has departed from a DHL facility ISTANBUL - TURKEY",
+            "pieceIds": ["JD014600010231346487"]
+        }, {
+            "timestamp": "2022-09-09T19:30:00",
+            "location": {
+                "address": {
+                    "addressLocality": "ISTANBUL - TURKEY"
+                }
+            },
+            "description": "Processed at ISTANBUL - TURKEY",
+            "pieceIds": ["JD014600010231346487"]
+        }, {
+            "timestamp": "2022-09-09T19:09:00",
+            "location": {
+                "address": {
+                    "addressLocality": "ISTANBUL - TURKEY"
+                }
+            },
+            "description": "Shipment Accepted",
+            "pieceIds": ["JD014600010231346487"]
+        }, {
+            "timestamp": "2022-09-08T20:55:00",
+            "location": {
+                "address": {
+                    "addressLocality": "ISTANBUL - TURKEY"
+                }
+            },
+            "description": "Shipment information received"
+        }
+    ]
+    }],
+    "possibleAdditionalShipmentsUrl": ["/track/shipments?trackingNumber=9483041875&service=freight", "/track/shipments?trackingNumber=9483041875&service=dgf", "/track/shipments?trackingNumber=9483041875&service=ecommerce", "/track/shipments?trackingNumber=9483041875&service=parcel-de", "/track/shipments?trackingNumber=9483041875&service=parcel-nl", "/track/shipments?trackingNumber=9483041875&service=parcel-pl", "/track/shipments?trackingNumber=9483041875&service=post-de", "/track/shipments?trackingNumber=9483041875&service=sameday", "/track/shipments?trackingNumber=9483041875&service=parcel-uk", "/track/shipments?trackingNumber=9483041875&service=ecommerce-apac", "/track/shipments?trackingNumber=9483041875&service=ecommerce-europe"]
+}
